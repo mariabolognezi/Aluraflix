@@ -6,8 +6,50 @@ body{
 }
 
 header {
-   border-bottom: solid 2px rgb(42, 122, 228);
+   border-bottom: solid 2px rgb(241, 238, 236);
    padding: 20px;
    font-size: 32px;
-   color: rgb(42, 122, 228);
+   color: rgb(228, 110, 42);
+}
+
+.Chamada{
+   background:rgb(236, 16, 200);
+   padding-bottom: 80px;
+   padding-top: 8px;
+   display:flex;
+   justify-content: center;
+}
+
+.Chamada-texto{
+   margin-right: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+.Categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.Categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.Categoria-videos img{
+    opacity: 05;
+    height: 200px;
+}
+
+.Categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(230, 36, 36);
 }
